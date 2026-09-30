@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="de"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prof. Dr.-Ing. Ralph Wystup M.Sc. — Lehr- und Laborarbeiten zur Elektrotechnik</title>
+<meta name="description" content="Lehr- und Laborarbeiten zur Elektrotechnik von Prof. Dr.-Ing. Ralph Wystup: Regelungstechnik, elektrische Maschinen, Feldsimulation, Schaltungssimulation, Transistormodelle und Messtechnik. Jede Arbeit mit Manuskript und einer Seite, die im Browser rechnet.">
+<meta name="author" content="Prof. Dr.-Ing. Ralph Wystup M.Sc.">
+<link rel="canonical" href="https://ralphwystup.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Ralph Wystup — Elektrotechnik">
+<meta property="og:title" content="Prof. Dr.-Ing. Ralph Wystup M.Sc. — Lehr- und Laborarbeiten zur Elektrotechnik">
+<meta property="og:description" content="Lehr- und Laborarbeiten zur Elektrotechnik von Prof. Dr.-Ing. Ralph Wystup: Regelungstechnik, elektrische Maschinen, Feldsimulation, Schaltungssimulation, Transistormodelle und Messtechnik. Jede Arbeit mit Manuskript und einer Seite, die im Browser rechnet.">
+<meta property="og:url" content="https://ralphwystup.github.io/">
+<meta property="og:image" content="https://ralphwystup.github.io/Foto_Ralph_Wystup.jpg">
+<meta name="twitter:card" content="summary">
+<link rel="sitemap" type="application/xml" href="https://ralphwystup.github.io/sitemap.xml">
+<style>
+:root{--t:#1b1b1b;--l:#5c5c5c;--b:#0a4f7a;--k:#dcdcd4;--f:#f8f6f1}
+*{box-sizing:border-box}
+body{margin:0;font:17px/1.7 "Iowan Old Style",Georgia,"Times New Roman",serif;color:var(--t);background:#fff}
+a{color:var(--b)} a:hover{text-decoration:none}
+header{border-bottom:1px solid var(--k);background:var(--f)}
+.innen{max-width:56em;margin:0 auto;padding:0 24px}
+header .innen{padding-top:34px;padding-bottom:28px;display:flex;gap:26px;align-items:flex-start;flex-wrap:wrap}
+header img{width:132px;height:176px;object-fit:cover;border-radius:5px;border:1px solid var(--k)}
+h1{margin:0 0 .1em;font-size:1.72em;line-height:1.25}
+.rolle{color:var(--l);margin:0 0 .8em}
+.vor{max-width:34em;margin:0}
+main .innen{padding-top:6px;padding-bottom:70px}
+h2{font-size:1.2em;margin:2.2em 0 .2em;color:var(--b);border-bottom:1px solid var(--k);padding-bottom:.25em}
+article{padding:1.1em 0;border-bottom:1px solid #eeeee8}
+article:last-child{border-bottom:0}
+article h3{margin:0 0 .25em;font-size:1.09em}
+article p{margin:0 0 .45em}
+.wege a{font-size:.93em;margin-right:1.1em;white-space:nowrap}
+.stich{font-size:.84em;color:var(--l)}
+footer{border-top:1px solid var(--k);background:var(--f);font-size:.92em;color:var(--l)}
+footer .innen{padding:22px 24px 34px}
+.aufbau{background:var(--f);border:1px solid var(--k);border-radius:5px;padding:14px 20px;margin:2em 0 0}
+.aufbau h2{margin-top:0;border:0;padding:0}
+@media(max-width:620px){body{font-size:16px} header .innen{padding-top:22px;gap:16px} header img{width:96px;height:128px}
+  h1{font-size:1.42em} .innen{padding:0 16px}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc.",
+ "jobTitle":"Professor für Elektrotechnik","url":"https://ralphwystup.github.io/",
+ "image":"https://ralphwystup.github.io/Foto_Ralph_Wystup.jpg",
+ "knowsAbout":["Regelungstechnik","Elektrische Maschinen","Feldsimulation","Schaltungssimulation",
+   "Transistormodelle","Messtechnik","Eingebettete Systeme"],
+ "subjectOf":[
+{"@type":"CreativeWork","name":"Segway-Regelung mit ESP32 und Schrittmotoren","url":"https://ralphwystup.github.io/Segway-Regelung-mit-ESP32-und-Schrittmotoren/","description":"Das inverse Pendel, von der Strecke bis zum Regler in vier Schichten. Laborversuch mit bewegtem Modell, laufenden Verläufen und einem Manuskript, das die Herleitung geschlossen zei","author":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc."},"inLanguage":"de","license":"https://opensource.org/licenses/MIT"},
+{"@type":"CreativeWork","name":"Wasserstandsregelung mit optischer Füllhöhenerkennung","url":"https://ralphwystup.github.io/Wasserstandsregelung-mit-optischer-Fuellhoehenerkennung/","description":"Eine Kamera misst die Füllhöhe im Behälter, ein PI-Regler hält sie auf dem Sollwert. Bildauswertung, Streckenmodell und geschlossener Kreis, alles im Browser nachvollziehbar.","author":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc."},"inLanguage":"de","license":"https://opensource.org/licenses/MIT"},
+{"@type":"CreativeWork","name":"Induktivitäten einer PMSM aus der Geometrie berechnen","url":"https://ralphwystup.github.io/Induktivit-ten-einer-PMSM-aus-Geometrie-berechnen/","description":"Eine Maschine hat je Achse zwei Induktivitäten, und sie sind verschieden. Wer die falsche nimmt, rechnet bei Sättigung um Faktoren daneben. Mit eigener Finite-Elemente-Rechnung im ","author":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc."},"inLanguage":"de","license":"https://opensource.org/licenses/MIT"},
+{"@type":"CreativeWork","name":"Elektromagnetische Feldsimulation","url":"https://ralphwystup.github.io/Elektromagnetische-Feldsimulation/","description":"Eine zweidimensionale Feldgleichung mit einer gewöhnlichen Netzwerkberechnung lösen: vom Gebiet zur Netzliste und zurück, mit dem Ritz-Verfahren und finiten Elementen.","author":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc."},"inLanguage":"de","license":"https://opensource.org/licenses/MIT"},
+{"@type":"CreativeWork","name":"Transistoren, der Transistortester und die daraus erzeugten Modelle","url":"https://ralphwystup.github.io/Transistoren-Transistortester-und-daraus-erzeugte-Modelle/","description":"Von der Messung zum eigenen Berechnungsverfahren: selbst gemessene Kennlinien, daraus selbst ermittelte Gummel-Poon-Parameter, und ein selbst geschriebener Löser, der damit Arbeits","author":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc."},"inLanguage":"de","license":"https://opensource.org/licenses/MIT"},
+{"@type":"CreativeWork","name":"Kennlinienschreiber für Transistoren","url":"https://ralphwystup.github.io/Kennlinienschreiber-fuer-Transistoren-mit-ESP32-und-BJT-Modell/","description":"Ein selbstgebauter Messplatz nimmt Kennlinienfelder auf: zwei Digital-Analog-Umsetzer speisen Basis- und Kollektorzweig, vier Analog-Digital-Umsetzer messen zurück, eine Kaskade au","author":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc."},"inLanguage":"de","license":"https://opensource.org/licenses/MIT"},
+{"@type":"CreativeWork","name":"Schaltungssimulation nichtlinearer Differentialgleichungssysteme","url":"https://ralphwystup.github.io/Schaltungssimulation-von-nichtlinearen-Differentialgleichungssystemen/","description":"Erweiterte Knotenanalyse, Newton-Raphson und Euler an der B4-Brücke mit belastetem RC-Glied. Dioden nach Shockley ohne Näherung, und seit Teil XII der Transistor als Bauteil der Ne","author":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc."},"inLanguage":"de","license":"https://opensource.org/licenses/MIT"},
+{"@type":"CreativeWork","name":"Analoganzeige optisch lesen","url":"https://ralphwystup.github.io/Analoganzeige-optisch-lesen-mit-ESP32-S3/","description":"Ein Zeigerinstrument ablesen, ohne es zu verändern. Skala und Zeiger werden in jedem Bild neu gefunden, ohne festen Drehpunkt und ohne Einlernen.","author":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc."},"inLanguage":"de","license":"https://opensource.org/licenses/MIT"},
+{"@type":"CreativeWork","name":"Wärmebild-Fusion mit ESP32-CAM und AMG8833","url":"https://ralphwystup.github.io/Waermebild-Fusion-mit-ESP32-CAM-und-AMG8833/","description":"Kamerabild und Wärmebild deckungsgleich übereinander, mit 64 Thermoelementen und der Parallaxe zweier Augen, die drei Zentimeter auseinanderliegen.","author":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc."},"inLanguage":"de","license":"https://opensource.org/licenses/MIT"},
+{"@type":"CreativeWork","name":"Tomatenwächter","url":"https://ralphwystup.github.io/Tomatenwaechter-Bildgestuetzte-Welkeerkennung-mit-ESP32-CAM-und-Raspberry-Pi/","description":"Wann muss gegossen werden? Eine solarbetriebene Kamera erkennt hängende Blätter am Excess-Green-Index, ein Raspberry Pi entscheidet und zeigt es auf einem Display.","author":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc."},"inLanguage":"de","license":"https://opensource.org/licenses/MIT"},
+{"@type":"CreativeWork","name":"Automatisch gesteuertes Lichtmikroskop mit KI","url":"https://ralphwystup.github.io/Automatisch-gesteuertes-Lichtmikroskop-mit-KI/","description":"Aufbau, Algorithmen, Fernwartung und ein KI-Fenster — eine Laborstation für Studierende, mit Autofokus und Focus-Stacking im Browser.","author":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc."},"inLanguage":"de","license":"https://opensource.org/licenses/MIT"},
+{"@type":"CreativeWork","name":"Akustische Rohrdiagnose mit einem dynamischen Netzwerkzwilling","url":"https://ralphwystup.github.io/Akustische-Rohrdiagnose-mit-einem-dynamischen-Netzwerkzwilling/","description":"Von der Impulsantwort zur Erkennung von Seitenrohr und Belag, mit einer überlagerten lernenden Ebene und einer benannten Nachweisgrenze.","author":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc."},"inLanguage":"de","license":"https://opensource.org/licenses/MIT"},
+{"@type":"CreativeWork","name":"Wetter-Fernschreiber Siemens T68d","url":"https://ralphwystup.github.io/Wetter-Fernschreiber-Siemens-T68d-RTTY-und-ITA2-mit-ESP32/","description":"Der Wetterbericht auf einem Streifenschreiber von 1959: RTTY und ITA2 bei 50 Baud. Die Seite druckt das wirkliche Wetter für einen Ort, den man eingibt.","author":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc."},"inLanguage":"de","license":"https://opensource.org/licenses/MIT"}
+]}
+</script>
+</head><body>
+<header><div class="innen">
+  <img src="Foto_Ralph_Wystup.jpg" alt="Prof. Dr.-Ing. Ralph Wystup M.Sc.">
+  <div>
+    <h1>Prof. Dr.-Ing. Ralph Wystup M.Sc.</h1>
+    <p class="rolle">Lehr- und Laborarbeiten zur Elektrotechnik</p>
+    <p class="vor">Dreizehn Arbeiten, jede mit einem Manuskript, das die Herleitung geschlossen zeigt,
+    und mit einer Seite, die im Browser rechnet. Die Seiten laufen ohne Netz, ohne Installation und ohne
+    Anmeldung — anklicken und die Schieber selbst bewegen. Alles unter der MIT-Lizenz, entstanden mit KI
+    und Agent.</p>
+  </div>
+</div></header>
+<main><div class="innen">
+
+<h2>Regelung und Mechatronik</h2>
+
+<article>
+  <h3><a href="https://ralphwystup.github.io/Segway-Regelung-mit-ESP32-und-Schrittmotoren/">Segway-Regelung mit ESP32 und Schrittmotoren</a></h3>
+  <p>Das inverse Pendel, von der Strecke bis zum Regler in vier Schichten. Laborversuch mit bewegtem Modell, laufenden Verläufen und einem Manuskript, das die Herleitung geschlossen zeigt.</p>
+  <p class="wege"><a href="https://ralphwystup.github.io/Segway-Regelung-mit-ESP32-und-Schrittmotoren/">Seite öffnen und rechnen</a>
+     <a href="https://github.com/RalphWystup/Segway-Regelung-mit-ESP32-und-Schrittmotoren">Manuskript und Programme</a></p>
+  <p class="stich">Regelungstechnik, inverses Pendel, Zustandsmodell, Schrittmotor, ESP32</p>
+</article>
+
+<article>
+  <h3><a href="https://ralphwystup.github.io/Wasserstandsregelung-mit-optischer-Fuellhoehenerkennung/">Wasserstandsregelung mit optischer Füllhöhenerkennung</a></h3>
+  <p>Eine Kamera misst die Füllhöhe im Behälter, ein PI-Regler hält sie auf dem Sollwert. Bildauswertung, Streckenmodell und geschlossener Kreis, alles im Browser nachvollziehbar.</p>
+  <p class="wege"><a href="https://ralphwystup.github.io/Wasserstandsregelung-mit-optischer-Fuellhoehenerkennung/">Seite öffnen und rechnen</a>
+     <a href="https://github.com/RalphWystup/Wasserstandsregelung-mit-optischer-Fuellhoehenerkennung">Manuskript und Programme</a></p>
+  <p class="stich">Füllstandsregelung, Bildverarbeitung, PI-Regler, OpenCV</p>
+</article>
+
+<h2>Elektrische Maschinen und Felder</h2>
+
+<article>
+  <h3><a href="https://ralphwystup.github.io/Induktivit-ten-einer-PMSM-aus-Geometrie-berechnen/">Induktivitäten einer PMSM aus der Geometrie berechnen</a></h3>
+  <p>Eine Maschine hat je Achse zwei Induktivitäten, und sie sind verschieden. Wer die falsche nimmt, rechnet bei Sättigung um Faktoren daneben. Mit eigener Finite-Elemente-Rechnung im Browser.</p>
+  <p class="wege"><a href="https://ralphwystup.github.io/Induktivit-ten-einer-PMSM-aus-Geometrie-berechnen/">Seite öffnen und rechnen</a>
+     <a href="https://github.com/RalphWystup/Induktivit-ten-einer-PMSM-aus-Geometrie-berechnen">Manuskript und Programme</a></p>
+  <p class="stich">PMSM, Induktivität, Sättigung, FEM, elektrische Maschinen</p>
+</article>
+
+<article>
+  <h3><a href="https://ralphwystup.github.io/Elektromagnetische-Feldsimulation/">Elektromagnetische Feldsimulation</a></h3>
+  <p>Eine zweidimensionale Feldgleichung mit einer gewöhnlichen Netzwerkberechnung lösen: vom Gebiet zur Netzliste und zurück, mit dem Ritz-Verfahren und finiten Elementen.</p>
+  <p class="wege"><a href="https://ralphwystup.github.io/Elektromagnetische-Feldsimulation/">Seite öffnen und rechnen</a>
+     <a href="https://github.com/RalphWystup/Elektromagnetische-Feldsimulation">Manuskript und Programme</a></p>
+  <p class="stich">Feldsimulation, FEM, Ritz-Verfahren, Netzwerkanalogie</p>
+</article>
+
+<h2>Schaltungen, Bauelemente und Messtechnik</h2>
+
+<article>
+  <h3><a href="https://ralphwystup.github.io/Transistoren-Transistortester-und-daraus-erzeugte-Modelle/">Transistoren, der Transistortester und die daraus erzeugten Modelle</a></h3>
+  <p>Von der Messung zum eigenen Berechnungsverfahren: selbst gemessene Kennlinien, daraus selbst ermittelte Gummel-Poon-Parameter, und ein selbst geschriebener Löser, der damit Arbeitspunkt und Verstärkung einer ganzen Schaltung rechnet.</p>
+  <p class="wege"><a href="https://ralphwystup.github.io/Transistoren-Transistortester-und-daraus-erzeugte-Modelle/">Seite öffnen und rechnen</a>
+     <a href="https://github.com/RalphWystup/Transistoren-Transistortester-und-daraus-erzeugte-Modelle">Manuskript und Programme</a></p>
+  <p class="stich">Transistor, Gummel-Poon, SPICE-Parameter, Kennlinienfeld, h-Parameter, Arbeitspunkt</p>
+</article>
+
+<article>
+  <h3><a href="https://ralphwystup.github.io/Kennlinienschreiber-fuer-Transistoren-mit-ESP32-und-BJT-Modell/">Kennlinienschreiber für Transistoren</a></h3>
+  <p>Ein selbstgebauter Messplatz nimmt Kennlinienfelder auf: zwei Digital-Analog-Umsetzer speisen Basis- und Kollektorzweig, vier Analog-Digital-Umsetzer messen zurück, eine Kaskade aus zwei Reglern hält den Arbeitspunkt.</p>
+  <p class="wege"><a href="https://ralphwystup.github.io/Kennlinienschreiber-fuer-Transistoren-mit-ESP32-und-BJT-Modell/">Seite öffnen und rechnen</a>
+     <a href="https://github.com/RalphWystup/Kennlinienschreiber-fuer-Transistoren-mit-ESP32-und-BJT-Modell">Manuskript und Programme</a></p>
+  <p class="stich">Kennlinienschreiber, Curve Tracer, ESP32, Modbus, Kaskadenregelung</p>
+</article>
+
+<article>
+  <h3><a href="https://ralphwystup.github.io/Schaltungssimulation-von-nichtlinearen-Differentialgleichungssystemen/">Schaltungssimulation nichtlinearer Differentialgleichungssysteme</a></h3>
+  <p>Erweiterte Knotenanalyse, Newton-Raphson und Euler an der B4-Brücke mit belastetem RC-Glied. Dioden nach Shockley ohne Näherung, und seit Teil XII der Transistor als Bauteil der Netzliste.</p>
+  <p class="wege"><a href="https://ralphwystup.github.io/Schaltungssimulation-von-nichtlinearen-Differentialgleichungssystemen/">Seite öffnen und rechnen</a>
+     <a href="https://github.com/RalphWystup/Schaltungssimulation-von-nichtlinearen-Differentialgleichungssystemen">Manuskript und Programme</a></p>
+  <p class="stich">Schaltungssimulation, Knotenpotentialverfahren, Newton-Raphson, Euler, SPICE</p>
+</article>
+
+<article>
+  <h3><a href="https://ralphwystup.github.io/Analoganzeige-optisch-lesen-mit-ESP32-S3/">Analoganzeige optisch lesen</a></h3>
+  <p>Ein Zeigerinstrument ablesen, ohne es zu verändern. Skala und Zeiger werden in jedem Bild neu gefunden, ohne festen Drehpunkt und ohne Einlernen.</p>
+  <p class="wege"><a href="https://ralphwystup.github.io/Analoganzeige-optisch-lesen-mit-ESP32-S3/">Seite öffnen und rechnen</a>
+     <a href="https://github.com/RalphWystup/Analoganzeige-optisch-lesen-mit-ESP32-S3">Manuskript und Programme</a></p>
+  <p class="stich">Zeigerinstrument, Bildverarbeitung, RANSAC, ESP32-S3, Kamera</p>
+</article>
+
+<h2>Messen mit Kamera und Sensor</h2>
+
+<article>
+  <h3><a href="https://ralphwystup.github.io/Waermebild-Fusion-mit-ESP32-CAM-und-AMG8833/">Wärmebild-Fusion mit ESP32-CAM und AMG8833</a></h3>
+  <p>Kamerabild und Wärmebild deckungsgleich übereinander, mit 64 Thermoelementen und der Parallaxe zweier Augen, die drei Zentimeter auseinanderliegen.</p>
+  <p class="wege"><a href="https://ralphwystup.github.io/Waermebild-Fusion-mit-ESP32-CAM-und-AMG8833/">Seite öffnen und rechnen</a>
+     <a href="https://github.com/RalphWystup/Waermebild-Fusion-mit-ESP32-CAM-und-AMG8833">Manuskript und Programme</a></p>
+  <p class="stich">Wärmebild, AMG8833, Grid-EYE, ESP32-CAM, Bildfusion</p>
+</article>
+
+<article>
+  <h3><a href="https://ralphwystup.github.io/Tomatenwaechter-Bildgestuetzte-Welkeerkennung-mit-ESP32-CAM-und-Raspberry-Pi/">Tomatenwächter</a></h3>
+  <p>Wann muss gegossen werden? Eine solarbetriebene Kamera erkennt hängende Blätter am Excess-Green-Index, ein Raspberry Pi entscheidet und zeigt es auf einem Display.</p>
+  <p class="wege"><a href="https://ralphwystup.github.io/Tomatenwaechter-Bildgestuetzte-Welkeerkennung-mit-ESP32-CAM-und-Raspberry-Pi/">Seite öffnen und rechnen</a>
+     <a href="https://github.com/RalphWystup/Tomatenwaechter-Bildgestuetzte-Welkeerkennung-mit-ESP32-CAM-und-Raspberry-Pi">Manuskript und Programme</a></p>
+  <p class="stich">Excess-Green-Index, Pflanzenerkennung, ESP32-CAM, Raspberry Pi, Solar</p>
+</article>
+
+<article>
+  <h3><a href="https://ralphwystup.github.io/Automatisch-gesteuertes-Lichtmikroskop-mit-KI/">Automatisch gesteuertes Lichtmikroskop mit KI</a></h3>
+  <p>Aufbau, Algorithmen, Fernwartung und ein KI-Fenster — eine Laborstation für Studierende, mit Autofokus und Focus-Stacking im Browser.</p>
+  <p class="wege"><a href="https://ralphwystup.github.io/Automatisch-gesteuertes-Lichtmikroskop-mit-KI/">Seite öffnen und rechnen</a>
+     <a href="https://github.com/RalphWystup/Automatisch-gesteuertes-Lichtmikroskop-mit-KI">Manuskript und Programme</a></p>
+  <p class="stich">Mikroskop, Autofokus, Focus-Stacking, OpenCV.js, Laborstation</p>
+</article>
+
+<h2>Signale und Diagnose</h2>
+
+<article>
+  <h3><a href="https://ralphwystup.github.io/Akustische-Rohrdiagnose-mit-einem-dynamischen-Netzwerkzwilling/">Akustische Rohrdiagnose mit einem dynamischen Netzwerkzwilling</a></h3>
+  <p>Von der Impulsantwort zur Erkennung von Seitenrohr und Belag, mit einer überlagerten lernenden Ebene und einer benannten Nachweisgrenze.</p>
+  <p class="wege"><a href="https://ralphwystup.github.io/Akustische-Rohrdiagnose-mit-einem-dynamischen-Netzwerkzwilling/">Seite öffnen und rechnen</a>
+     <a href="https://github.com/RalphWystup/Akustische-Rohrdiagnose-mit-einem-dynamischen-Netzwerkzwilling">Manuskript und Programme</a></p>
+  <p class="stich">Rohrdiagnose, Impulsantwort, Netzwerkzwilling, Akustik, Zustandsüberwachung</p>
+</article>
+
+<article>
+  <h3><a href="https://ralphwystup.github.io/Wetter-Fernschreiber-Siemens-T68d-RTTY-und-ITA2-mit-ESP32/">Wetter-Fernschreiber Siemens T68d</a></h3>
+  <p>Der Wetterbericht auf einem Streifenschreiber von 1959: RTTY und ITA2 bei 50 Baud. Die Seite druckt das wirkliche Wetter für einen Ort, den man eingibt.</p>
+  <p class="wege"><a href="https://ralphwystup.github.io/Wetter-Fernschreiber-Siemens-T68d-RTTY-und-ITA2-mit-ESP32/">Seite öffnen und rechnen</a>
+     <a href="https://github.com/RalphWystup/Wetter-Fernschreiber-Siemens-T68d-RTTY-und-ITA2-mit-ESP32">Manuskript und Programme</a></p>
+  <p class="stich">Fernschreiber, RTTY, ITA2, Baudot, Siemens T68d, ESP32</p>
+</article>
+
+<div class="aufbau">
+<h2>Wie die Arbeiten aufgebaut sind</h2>
+<p>Jede folgt demselben Muster, damit man sich nicht neu zurechtfinden muss. <b>Eine Seite</b> als
+einzelne HTML-Datei, die Simulation, Messblatt und die ganze Dokumentation enthält und auch ohne
+Internetzugang läuft. <b>Ein Manuskript</b> als Markdown, daraus gesetzt als PDF und DOCX: Herleitungen
+geschlossen, jede Zahl gerechnet oder gemessen, alles von Hand nachrechenbar. <b>Ein Prüfplan</b> mit
+einer Schranke je Kriterium und dem Ergebnis der letzten Prüfung; die Seiten werden im echten Browser
+geprüft. Dazu <b>die Programme</b>: Firmware, Auswertung, Messdaten.</p>
+</div>
+</div></main>
+<footer><div class="innen">
+  <p>Prof. Dr.-Ing. Ralph Wystup M.Sc. · alle Arbeiten unter der MIT-Lizenz ·
+  <a href="https://github.com/RalphWystup">Übersicht auf GitHub</a></p>
+  <p>Stand 2026-09-30</p>
+</div></footer>
+</body></html>
